@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Image Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Text to Image Generator</h1>
+    </header>
+    <main>
+        <form id="imageForm">
+            <label for="input">Enter a text prompt to generate an image:</label>
+            <input type="text" id="input" name="textPrompt" placeholder="Type your prompt here" required>
+            <button type="button" id="btn">Generate</button>
+        </form>
+        <div id="imageContainer">
+            <img id="image" src="" alt="Generated image will appear here">
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Text to Image Generator</p>
+    </footer>
+    <script src="Script.js"></script>
+</body>
+</html>
